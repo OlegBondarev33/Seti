@@ -36,11 +36,31 @@
 
 **sudo nmap -sA < ip-адрес >**
 
+Пакет запроса при таком типе сканирования содержит установленным только ACK флаг
+
+![image](https://github.com/user-attachments/assets/29a3b267-d6a1-46c6-84d2-dff4971845a2)
+
+
 **sudo nmap -sT < ip-адрес >**
+
+Используемый по умолчанию тип TCP сканирования, когда недоступно SYN сканирование
+
+![image](https://github.com/user-attachments/assets/e255b443-01b4-480a-83f2-bc72bba7006f)
+
 
 **sudo nmap -sS < ip-адрес >**
 
+SYN это используемый по умолчанию и наиболее популярный тип сканирования
+
+![image](https://github.com/user-attachments/assets/4122fdba-c605-4dcc-9718-ddf2b14cdb0c)
+
+
 **sudo nmap -sV < ip-адрес >**
+
+Включает функцию определения версии
+
+![image](https://github.com/user-attachments/assets/45474353-ca29-47af-b82d-0cea54eac5c0)
+
 
 По желанию можете поэкспериментировать с опциями: https://nmap.org/man/ru/man-briefoptions.html.
 
