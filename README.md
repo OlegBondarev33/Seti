@@ -78,6 +78,9 @@ SYN это используемый по умолчанию и наиболее 
 1. Настройка **hydra**: 
  
  - создайте два файла: **users.txt** и **pass.txt**;
+ - 
+![image](https://github.com/user-attachments/assets/785a7713-68b4-47db-9ae8-f8cfce958333)
+
  - в каждой строчке первого файла должны быть имена пользователей, второго — пароли. В нашем случае это могут быть случайные строки, но ради эксперимента можете добавить имя и пароль существующего пользователя.
 
 Дополнительная информация по **hydra**: https://kali.tools/?p=1847.
@@ -87,6 +90,17 @@ SYN это используемый по умолчанию и наиболее 
 -  открыть файл /etc/fail2ban/jail.conf,
 -  найти секцию **ssh**,
 -  установить **enabled**  в **true**.
+
+![image](https://github.com/user-attachments/assets/d007eb86-35d3-4391-b8d5-3b192ff34fad)
+
+![image](https://github.com/user-attachments/assets/0d8d5bd1-61e2-42ef-a89c-cb18fa2e09c9)
+
+![image](https://github.com/user-attachments/assets/85c8a092-07a5-4dcf-952f-bd5d9995d9d6)
+
+![image](https://github.com/user-attachments/assets/756b0fa8-0bda-412b-b49a-e24aee9b094b)
+
+
+
 
 Дополнительная информация по **Fail2Ban**:https://putty.org.ru/articles/fail2ban-ssh.html.
 
